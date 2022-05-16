@@ -1,0 +1,70 @@
+.container {
+  max-width: 540px;
+  margin: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.header {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.result-header {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.capture-error {
+  color: #b11902;
+}
+
+#qualityData {
+  width: 100%;
+}
+
+.image-box {
+  text-align: justify;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+}
+.loader-wrap {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.loader {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  margin-left: -76px;
+  margin-top: -76px;
+  top: 50%;
+  left: 50%;
+  border: 16px solid #f3f3f3;
+  border-top-color: #3498db;
+  border-bottom-color: #3498db;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
